@@ -1,101 +1,876 @@
-[
-    "Macan Putih",
-    "Naga Emas",
-    "Garuda Hitam",
-    "Lembu Sakti",
-    "Siluman Air",
-    "Singa Bintang",
-    "Harimau Silver",
-    "Genderuwo Komedi",
-    "Kuntilanak Receh",
-    "Tuyul Baper",
-    "Jin Pencet Tombol",
-    "Setan Bola",
-    "Hantu Kopi Susu",
-    "Leak Skincare",
-    "Wewe Gombel Ngonten",
-    "Undur-undur Mandraguna",
-    "Kelelawar Malam Jumat",
-    "Buto Ijo Pelupa",
-    "Banaspati Goreng",
-    "Ratu Pantai Selatan Versi Santai",
-    "Jenglot Barbie",
-    "Suster Ngesot",
-    "Pocong Kejepit Pintu",
-    "Kuyang Belanja",
-    "Tuyul Misqueen",
-    "Genderuwo Baper",
-    "Jin Kipas Angin",
-    "Setan Gen Z",
-    "Hanthu Mager",
-    "Weh Cupu",
-    "Leak Ngopi",
-    "Buto Cengar-cengir",
-    "Siluman Kulkas",
-    "Jin Spotify",
-    "Khodam Rice Cooker",
-    "Nyi Blorong Reborn",
-    "Semedi Galon",
-    "Tuyul Saham",
-    "Kuntilanak TikTok",
-    "Genderuwo Dangdut",
-    "Setan Keyboard",
-    "Pocong Fast Respon",
-    "Jenglot Pajangan",
-    "Ratu Selatan COD",
-    "Kuyang Nonton Drakor",
-    "Banowati Versi Om-om",
-    "Jin Galon Aqua",
-    "Leak ML",
-    "Hantu Saklar",
-    "Siluman Dispenser",
-    "Naga Petir Putih",
-    "Singa Pengecut",
-    "Harimau Ompong",
-    "Macan Kertas",
-    "Lembu Mager",
-    "Garuda Oprek",
-    "Khodam Kopi Pahit",
-    "Jin Indosiar",
-    "Setan SCTV",
-    "Genderuwo RCTI",
-    "Pocong Trans7",
-    "Tuyul Netflix",
-    "Kuntilanak Youtube",
-    "Jenglot Shopee",
-    "Kuyang Tokopedia",
-    "Leak Lazada",
-    "Buto Gojek",
-    "Siluman Grab",
-    "Khodam Indomie",
-    "Setan Ojek Online",
-    "Pocong COD",
-    "Genderuwo Live Streaming",
-    "Kuntilanak Preorder",
-    "Tuyul Affiliate",
-    "Jin Influencer",
-    "Leak Vtuber",
-    "Siluman Podcast",
-    "Khodam Badut",
-    "Setan Kelupaan",
-    "Genderuwo Sange",
-    "Pocong BBM",
-    "Kuntilanak SMS",
-    "Tuyul Waifu",
-    "Jenglot Husbu",
-    "Kuyang FYP",
-    "Buto VIRAL",
-    "Siluman AI",
-    "Khodam NPC",
-    "Setan Proplayer",
-    "Genderuwo Egirl",
-    "Pocong No Sensor",
-    "Kuntilanak 4K",
-    "Tuyul Sodaq",
-    "Jin Paper",
-    "Leak Sange",
-    "Siluman F4",
-    "Khodam Gabut",
-    "Setan Sahur",
-    "Genderuwo Boker"
-]
+{
+  "khodam_list": [
+    {
+      "nama": "Macan Putih",
+      "deskripsi": "Khodam berwujud macan putih yang melindungi pemiliknya dari bahaya."
+    },
+    {
+      "nama": "Naga Merah",
+      "deskripsi": "Naga api yang memberikan kekuatan dan keberanian dalam menghadapi musuh."
+    },
+    {
+      "nama": "Harimau Emas",
+      "deskripsi": "Harimau legendaris yang membawa kekayaan dan kekuatan fisik."
+    },
+    {
+      "nama": "Garuda Pancasila",
+      "deskripsi": "Burung garuda suci yang melindungi dari serangan gaib dan fisik."
+    },
+    {
+      "nama": "Ular Kobra Hitam",
+      "deskripsi": "Ular berbisa yang melindungi dengan sengat energi negatif."
+    },
+    {
+      "nama": "Kuda Terbang",
+      "deskripsi": "Kuda bersayap yang membawa kecepatan dan kelincahan."
+    },
+    {
+      "nama": "Singa Api",
+      "deskripsi": "Singa dari dimensi api yang memberikan kekuatan dahsyat."
+    },
+    {
+      "nama": "Serigala Malam",
+      "deskripsi": "Serigala hitam yang aktif di malam hari, melindungi dari setan."
+    },
+    {
+      "nama": "Gajah Perak",
+      "deskripsi": "Gajah besar yang membawa ketenangan dan kestabilan hidup."
+    },
+    {
+      "nama": "Raja Kuntilanak",
+      "deskripsi": "Kuntilanak yang sudah ditaklukkan dan jadi khodam pelindung."
+    },
+    {
+      "nama": "Genderuwo Sakti",
+      "deskripsi": "Genderuwo yang telah disucikan, melindungi rumah dari maling."
+    },
+    {
+      "nama": "Wewe Gombel",
+      "deskripsi": "Khodam perempuan yang melindungi anak-anak dari bahaya."
+    },
+    {
+      "nama": "Jin Ifrit",
+      "deskripsi": "Jin api yang kuat, melindungi dari serangan jahat lainnya."
+    },
+    {
+      "nama": "Jin Marid",
+      "deskripsi": "Jin air yang memberikan ketenangan batin dan kecerdasan."
+    },
+    {
+      "nama": "Jin Syaitan",
+      "deskripsi": "Jin yang sudah taat, melindungi dari godaan dan tipu daya."
+    },
+    {
+      "nama": "Ratu Pantai Selatan",
+      "deskripsi": "Khodam dari laut selatan yang membawa pesona dan kekuatan."
+    },
+    {
+      "nama": "Putri Duyung",
+      "deskripsi": "Duyung cantik yang membawa keberuntungan dalam percintaan."
+    },
+    {
+      "nama": "Raja Jin Gunung",
+      "deskripsi": "Penguasa jin gunung yang melindungi saat naik gunung."
+    },
+    {
+      "nama": "Siluman Ular",
+      "deskripsi": "Ular yang bisa berubah wujud, melindungi dari santet."
+    },
+    {
+      "nama": "Siluman Kucing",
+      "deskripsi": "Kucing hitam sakti yang membawa keberuntungan finansial."
+    },
+    {
+      "nama": "Siluman Rubah",
+      "deskripsi": "Rubah berekor sembilan yang memberikan kecerdasan dan kelicikan."
+    },
+    {
+      "nama": "Siluman Buaya",
+      "deskripsi": "Buaya putih yang melindungi dari musuh di tempat air."
+    },
+    {
+      "nama": "Siluman Kelelawar",
+      "deskripsi": "Kelelawar raksasa yang aktif di malam, melindungi saat tidur."
+    },
+    {
+      "nama": "Siluman Harimau",
+      "deskripsi": "Harimau manusia yang memberikan kekuatan super."
+    },
+    {
+      "nama": "Siluman Kera",
+      "deskripsi": "Kera sakti yang memberikan kelincahan dan strategi."
+    },
+    {
+      "nama": "Siluman Elang",
+      "deskripsi": "Elang besar yang memberikan penglihatan tajam dan intuisi."
+    },
+    {
+      "nama": "Siluman Gajah",
+      "deskripsi": "Gajah yang memberikan kekuatan tubuh dan ketahanan."
+    },
+    {
+      "nama": "Siluman Ikan",
+      "deskripsi": "Ikan raksasa yang membawa kelancaran rezeki."
+    },
+    {
+      "nama": "Siluman Kelinci",
+      "deskripsi": "Kelinci putih yang membawa keberuntungan dan kesuburan."
+    },
+    {
+      "nama": "Siluman Kambing",
+      "deskripsi": "Kambing hitam yang melindungi dari sihir hitam."
+    },
+    {
+      "nama": "Siluman Sapi",
+      "deskripsi": "Sapi emas yang membawa kemakmuran dan kelimpahan."
+    },
+    {
+      "nama": "Siluman Ayam",
+      "deskripsi": "Ayam jago sakti yang memberikan keberanian dan kewibawaan."
+    },
+    {
+      "nama": "Siluman Anjing",
+      "deskripsi": "Anjing hitam yang setia melindungi dari roh jahat."
+    },
+    {
+      "nama": "Siluman Babi",
+      "deskripsi": "Babi hutan yang melindungi dari musuh yang menyelinap."
+    },
+    {
+      "nama": "Siluman Rusa",
+      "deskripsi": "Rusa putih yang membawa kecepatan lari dan kelincahan."
+    },
+    {
+      "nama": "Siluman Beruang",
+      "deskripsi": "Beruang coklat yang memberikan kekuatan pertahanan tubuh."
+    },
+    {
+      "nama": "Siluman Serigala",
+      "deskripsi": "Serigala abu-abu yang melindungi saat berada di alam liar."
+    },
+    {
+      "nama": "Siluman Kuda",
+      "deskripsi": "Kuda hitam yang membawa kecepatan dalam urusan bisnis."
+    },
+    {
+      "nama": "Siluman Tikus",
+      "deskripsi": "Tikus putih yang memberikan kecerdasan dan ketahanan hidup."
+    },
+    {
+      "nama": "Siluman Burung Hantu",
+      "deskripsi": "Burung hantu yang memberikan kebijaksanaan dan penglihatan malam."
+    },
+    {
+      "nama": "Siluman Merak",
+      "deskripsi": "Merak biru yang membawa keindahan dan pesona."
+    },
+    {
+      "nama": "Siluman Bangau",
+      "deskripsi": "Bangau putih yang membawa umur panjang dan kesehatan."
+    },
+    {
+      "nama": "Siluman Katak",
+      "deskripsi": "Katak emas yang membawa rezeki dari arah yang tak terduga."
+    },
+    {
+      "nama": "Siluman Belalang",
+      "deskripsi": "Belalang hijau yang memberikan kelincahan dan lompatan jauh."
+    },
+    {
+      "nama": "Siluman Kupu-Kupu",
+      "deskripsi": "Kupu-kupu emas yang membawa kebahagiaan dan transformasi."
+    },
+    {
+      "nama": "Siluman Lebah",
+      "deskripsi": "Lebah raja yang membawa kerja keras dan hasil melimpah."
+    },
+    {
+      "nama": "Siluman Semut",
+      "deskripsi": "Semut raksasa yang memberikan ketekunan dan kekuatan kelompok."
+    },
+    {
+      "nama": "Siluman Laba-Laba",
+      "deskripsi": "Laba-laba hitam yang menjebak musuh dengan jaring energi."
+    },
+    {
+      "nama": "Siluman Kalajengking",
+      "deskripsi": "Kalajengking emas yang melindungi dengan bisa mematikan."
+    },
+    {
+      "nama": "Siluman Kecoa",
+      "deskripsi": "Kecoa hitam yang memberikan ketahanan hidup di segala kondisi."
+    },
+    {
+      "nama": "Siluman Nyamuk",
+      "deskripsi": "Nyamuk sakti yang menghisap energi negatif musuh."
+    },
+    {
+      "nama": "Siluman Lalat",
+      "deskripsi": "Lalat hijau yang membawa berita cepat dan intuisi tajam."
+    },
+    {
+      "nama": "Siluman Kumbang",
+      "deskripsi": "Kumbang emas yang membawa keberuntungan dan kekuatan bawah tanah."
+    },
+    {
+      "nama": "Siluman Ulat",
+      "deskripsi": "Ulat sutra yang membawa transformasi dan keindahan hidup."
+    },
+    {
+      "nama": "Siluman Kepiting",
+      "deskripsi": "Kepiting merah yang melindungi dari serangan samping."
+    },
+    {
+      "nama": "Siluman Udang",
+      "deskripsi": "Udang emas yang membawa kelimpahan dari laut."
+    },
+    {
+      "nama": "Siluman Gurita",
+      "deskripsi": "Gurita raksasa yang melindungi dengan banyak lengan energi."
+    },
+    {
+      "nama": "Siluman Paus",
+      "deskripsi": "Paus biru yang membawa kedamaian dan kekuatan laut dalam."
+    },
+    {
+      "nama": "Siluman Hiu",
+      "deskripsi": "Hiu putih yang melindungi dengan ganas dan tak kenal takut."
+    },
+    {
+      "nama": "Siluman Pari",
+      "deskripsi": "Pari hitam yang melindungi dengan duri beracun energi."
+    },
+    {
+      "nama": "Siluman Lumba-Lumba",
+      "deskripsi": "Lumba-lumba yang membawa keceriaan dan komunikasi baik."
+    },
+    {
+      "nama": "Siluman Penyu",
+      "deskripsi": "Penyu hijau yang membawa umur panjang dan ketenangan."
+    },
+    {
+      "nama": "Siluman Kura-Kura",
+      "deskripsi": "Kura-kura emas yang membawa kesabaran dan pertahanan kuat."
+    },
+    {
+      "nama": "Siluman Buaya Putih",
+      "deskripsi": "Buaya putih suci yang melindungi di sungai dan rawa."
+    },
+    {
+      "nama": "Siluman Biawak",
+      "deskripsi": "Biawak hitam yang melindungi dari racun dan penyakit."
+    },
+    {
+      "nama": "Siluman Komodo",
+      "deskripsi": "Komodo sakti yang membawa kekuatan fisik dan ketahanan."
+    },
+    {
+      "nama": "Siluman Cicak",
+      "deskripsi": "Cicak hijau yang membawa kelincahan dan regenerasi cepat."
+    },
+    {
+      "nama": "Siluman Tokek",
+      "deskripsi": "Tokek besar yang membawa keberuntungan rezeki di malam hari."
+    },
+    {
+      "nama": "Siluman Bunglon",
+      "deskripsi": "Bunglon yang memberikan kemampuan menyamar dan menghilang."
+    },
+    {
+      "nama": "Siluman Kadal",
+      "deskripsi": "Kadal emas yang membawa adaptasi dan kelangsungan hidup."
+    },
+    {
+      "nama": "Siluman Ular Naga",
+      "deskripsi": "Ular raksasa seperti naga yang melindungi dengan api dalam."
+    },
+    {
+      "nama": "Siluman Ular Sanca",
+      "deskripsi": "Sanca raksasa yang melilit musuh dengan energi pengikat."
+    },
+    {
+      "nama": "Siluman Ular Weling",
+      "deskripsi": "Ular weling yang melindungi dengan bisa mematikan instan."
+    },
+    {
+      "nama": "Siluman Ular Kobra",
+      "deskripsi": "Kobra raja yang melindungi dengan taring energi mematikan."
+    },
+    {
+      "nama": "Siluman Ular Phyton",
+      "deskripsi": "Phyton sakti yang melilit dan menghancurkan energi musuh."
+    },
+    {
+      "nama": "Siluman Ular Anaconda",
+      "deskripsi": "Anaconda gaib yang melindungi dengan kekuatan melilit super."
+    },
+    {
+      "nama": "Siluman Ular Viper",
+      "deskripsi": "Viper hitam yang melindungi dengan bisa mematikan dari kejauhan."
+    },
+    {
+      "nama": "Siluman Ular Taipan",
+      "deskripsi": "Taipan dalam yang melindungi dengan bisa paling mematikan."
+    },
+    {
+      "nama": "Siluman Ular Beludak",
+      "deskripsi": "Beludak sakti yang melindungi dengan bisa merusak energi."
+    },
+    {
+      "nama": "Siluman Ular Laut",
+      "deskripsi": "Ular laut yang melindungi saat berada di perairan."
+    },
+    {
+      "nama": "Siluman Ular Terbang",
+      "deskripsi": "Ular bersayap yang melindungi dari serangan udara."
+    },
+    {
+      "nama": "Siluman Naga Air",
+      "deskripsi": "Naga dari laut dalam yang membawa kekuatan air dan emosi."
+    },
+    {
+      "nama": "Siluman Naga Api",
+      "deskripsi": "Naga dari gunung berapi yang membawa kekuatan api dan amarah."
+    },
+    {
+      "nama": "Siluman Naga Tanah",
+      "deskripsi": "Naga dari bumi yang membawa kestabilan dan kekuatan pertahanan."
+    },
+    {
+      "nama": "Siluman Naga Angin",
+      "deskripsi": "Naga dari langit yang membawa kecepatan dan kebebasan."
+    },
+    {
+      "nama": "Siluman Naga Petir",
+      "deskripsi": "Naga petir yang membawa kekuatan listrik dan kejutan."
+    },
+    {
+      "nama": "Siluman Naga Es",
+      "deskripsi": "Naga dari kutub yang membawa ketenangan dan kekuatan dingin."
+    },
+    {
+      "nama": "Siluman Naga Cahaya",
+      "deskripsi": "Naga putih bersinar yang membawa kebaikan dan penyembuhan."
+    },
+    {
+      "nama": "Siluman Naga Kegelapan",
+      "deskripsi": "Naga hitam pekat yang melindungi dengan kekuatan bayangan."
+    },
+    {
+      "nama": "Siluman Naga Emas",
+      "deskripsi": "Naga emas yang membawa kekayaan melimpah dan kemakmuran."
+    },
+    {
+      "nama": "Siluman Naga Perak",
+      "deskripsi": "Naga perak yang membawa kebijaksanaan dan kekuatan bulan."
+    },
+    {
+      "nama": "Siluman Naga Hijau",
+      "deskripsi": "Naga hijau yang membawa kesehatan dan kekuatan alam."
+    },
+    {
+      "nama": "Siluman Naga Merah",
+      "deskripsi": "Naga merah yang membawa keberanian dan kekuatan matahari."
+    },
+    {
+      "nama": "Siluman Naga Biru",
+      "deskripsi": "Naga biru yang membawa ketenangan dan kekuatan lautan."
+    },
+    {
+      "nama": "Siluman Naga Ungu",
+      "deskripsi": "Naga ungu yang membawa kekuatan spiritual dan intuisi."
+    },
+    {
+      "nama": "Siluman Naga Hitam",
+      "deskripsi": "Naga hitam yang melindungi dengan kekuatan misterius."
+    },
+    {
+      "nama": "Siluman Phoenix",
+      "deskripsi": "Burung api abadi yang membawa kebangkitan dan keabadian."
+    },
+    {
+      "nama": "Siluman Griffin",
+      "deskripsi": "Singa berkepala elang yang membawa kekuatan dan kebijaksanaan."
+    },
+    {
+      "nama": "Siluman Chimera",
+      "deskripsi": "Makhluk hybrid yang melindungi dengan banyak kemampuan."
+    },
+    {
+      "nama": "Siluman Hydra",
+      "deskripsi": "Ular banyak kepala yang melindungi dengan regenerasi cepat."
+    },
+    {
+      "nama": "Siluman Basilisk",
+      "deskripsi": "Ular raja yang melindungi dengan tatapan mematikan."
+    },
+    {
+      "nama": "Siluman Kraken",
+      "deskripsi": "Gurita raksasa laut dalam yang menghancurkan kapal musuh."
+    },
+    {
+      "nama": "Siluman Leviathan",
+      "deskripsi": "Monster laut raksasa yang melindungi dengan kekuatan air dahsyat."
+    },
+    {
+      "nama": "Siluman Behemoth",
+      "deskripsi": "Monster darat raksasa yang melindungi dengan kekuatan fisik super."
+    },
+    {
+      "nama": "Siluman Yeti",
+      "deskripsi": "Monster salju yang melindungi di daerah dingin dan pegunungan."
+    },
+    {
+      "nama": "Siluman Bigfoot",
+      "deskripsi": "Kaki besar yang melindungi di hutan dan alam liar."
+    },
+    {
+      "nama": "Siluman Mothman",
+      "deskripsi": "Manusia ngengat yang memberikan peringatan sebelum bahaya datang."
+    },
+    {
+      "nama": "Siluman Chupacabra",
+      "deskripsi": "Penghisap darah yang melindungi dengan menyerap energi musuh."
+    },
+    {
+      "nama": "Siluman Jersey Devil",
+      "deskripsi": "Setan sayap yang melindungi dengan terbang cepat dan serangan udara."
+    },
+    {
+      "nama": "Siluman Wendigo",
+      "deskripsi": "Roh lapar yang melindungi dengan kekuatan musim dingin."
+    },
+    {
+      "nama": "Siluman Banshee",
+      "deskripsi": "Roh perempuan yang memberikan peringatan dengan teriakan mematikan."
+    },
+    {
+      "nama": "Siluman Dullahan",
+      "deskripsi": "Kepala terpenggal yang melindungi dengan cambuk energi mematikan."
+    },
+    {
+      "nama": "Siluman Oni",
+      "deskripsi": "Setan Jepang yang melindungi dengan kekuatan fisik dan gada besi."
+    },
+    {
+      "nama": "Siluman Tengu",
+      "deskripsi": "Burung manusia yang membawa kebijaksanaan dan kekuatan angin."
+    },
+    {
+      "nama": "Siluman Kitsune",
+      "deskripsi": "Rubah berekor sembilan yang membawa kelicikan dan ilusi."
+    },
+    {
+      "nama": "Siluman Tanuki",
+      "deskripsi": "Musang raksasa yang membawa keberuntungan dan kemampuan berubah."
+    },
+    {
+      "nama": "Siluman Kappa",
+      "deskripsi": "Kura-kura manusia air yang melindungi di perairan."
+    },
+    {
+      "nama": "Siluman Yuki-Onna",
+      "deskripsi": "Wanita salju yang melindungi dengan kekuatan es dan dingin."
+    },
+    {
+      "nama": "Siluman Jorogumo",
+      "deskripsi": "Laba-laba wanita yang menjebak musuh dengan jaring halus."
+    },
+    {
+      "nama": "Siluman Nekomata",
+      "deskripsi": "Kucing berkepala dua yang membawa keberuntungan dan kematian."
+    },
+    {
+      "nama": "Siluman Bakeneko",
+      "deskripsi": "Kucing transformasi yang melindungi dengan ilusi dan sihir."
+    },
+    {
+      "nama": "Siluman Rokurokubi",
+      "deskripsi": "Wanita leher panjang yang mengintai musuh dari kejauhan."
+    },
+    {
+      "nama": "Siluman Nurarihyon",
+      "deskripsi": "Pemimpin youkai yang membawa kekuasaan dan kebijaksanaan."
+    },
+    {
+      "nama": "Siluman Abura-Akago",
+      "deskripsi": "Roh minyak yang melindungi dengan api kecil tapi mematikan."
+    },
+    {
+      "nama": "Siluman Akaname",
+      "deskripsi": "Roh jilat yang membersihkan energi negatif di tempat kotor."
+    },
+    {
+      "nama": "Siluman Amabie",
+      "deskripsi": "Roh laut yang membawa kesehatan dan perlindungan dari wabah."
+    },
+    {
+      "nama": "Siluman Azuki-Arai",
+      "deskripsi": "Roh azuki yang membawa rezeki kecil tapi konsisten."
+    },
+    {
+      "nama": "Siluman Betobeto-San",
+      "deskripsi": "Roh langkah yang melindungi saat berjalan di malam hari."
+    },
+    {
+      "nama": "Siluman Chochin-Obake",
+      "deskripsi": "Lentera hidup yang menerangi jalan di kegelapan."
+    },
+    {
+      "nama": "Siluman Furutsubaki",
+      "deskripsi": "Roh bunga kamelia yang membawa keindahan dan pesona."
+    },
+    {
+      "nama": "Siluman Gashadokuro",
+      "deskripsi": "Tengkorak raksasa yang melindungi dengan kekuatan tulang keras."
+    },
+    {
+      "nama": "Siluman Hone-Onna",
+      "deskripsi": "Wanita tulang yang melindungi dengan kekuatan kematian."
+    },
+    {
+      "nama": "Siluman Ibaraki-Doji",
+      "deskripsi": "Oni wanita yang melindungi dengan kekuatan setan merah."
+    },
+    {
+      "nama": "Siluman Inugami",
+      "deskripsi": "Roh anjing yang setia melindungi pemiliknya sampai mati."
+    },
+    {
+      "nama": "Siluman Ittan-Momen",
+      "deskripsi": "Kain terbang yang melindungi dengan melilit dan menutup musuh."
+    },
+    {
+      "nama": "Siluman Kasa-Obake",
+      "deskripsi": "Payung hidup yang melindungi dari hujan dan serangan dari atas."
+    },
+    {
+      "nama": "Siluman Kawauso",
+      "deskripsi": "Berang-berang yang membawa keceriaan dan keberuntungan air."
+    },
+    {
+      "nama": "Siluman Keukegen",
+      "deskripsi": "Roh bulu yang membersihkan energi kotor dan penyakit."
+    },
+    {
+      "nama": "Siluman Kiyohime",
+      "deskripsi": "Wanita ular yang melindungi dengan api amarah membara."
+    },
+    {
+      "nama": "Siluman Kodama",
+      "deskripsi": "Roh pohon yang melindungi di hutan dan alam sekitar."
+    },
+    {
+      "nama": "Siluman Konaki-Jijii",
+      "deskripsi": "Bayi tua yang melindungi dengan suara menangis memecahkan telinga."
+    },
+    {
+      "nama": "Siluman Kubinashi",
+      "deskripsi": "Tanpa kepala yang melindungi dengan misteri dan ketakutan."
+    },
+    {
+      "nama": "Siluman Kuchisake-Onna",
+      "deskripsi": "Wanita robek mulut yang melindungi dengan gunting energi tajam."
+    },
+    {
+      "nama": "Siluman Kyubi",
+      "deskripsi": "Rubah berekor sembilan legendaris dengan kekuatan sempurna."
+    },
+    {
+      "nama": "Siluman Mujina",
+      "deskripsi": "Tanuki sakti yang berubah wujud dan menipu musuh."
+    },
+    {
+      "nama": "Siluman Noppera-Bo",
+      "deskripsi": "Tanpa wajah yang melindungi dengan ketakutan dan kekosongan."
+    },
+    {
+      "nama": "Siluman Obariyon",
+      "deskripsi": "Roh gemuk yang melindungi dengan berat badan super."
+    },
+    {
+      "nama": "Siluman Rokuro-Kubi",
+      "deskripsi": "Leher panjang yang mengintai dan melindungi dari kejauhan."
+    },
+    {
+      "nama": "Siluman Shuten-Doji",
+      "deskripsi": "Raja oni yang melindungi dengan kekuatan setan terkuat."
+    },
+    {
+      "nama": "Siluman Tsuchigumo",
+      "deskripsi": "Laba-laba tanah raksasa yang menjebak musuh di bawah tanah."
+    },
+    {
+      "nama": "Siluman Umibozu",
+      "deskripsi": "Raksasa laut yang melindungi di perairan luas dan dalam."
+    },
+    {
+      "nama": "Siluman Yama-Uba",
+      "deskripsi": "Nenek gunung yang melindungi dengan kekuatan alam dan herbal."
+    },
+    {
+      "nama": "Siluman Yama-Warawa",
+      "deskripsi": "Anak gunung yang membawa keceriaan dan keberuntungan alam."
+    },
+    {
+      "nama": "Siluman Yosei",
+      "deskripsi": "Peri Jepang yang membawa keindahan dan keberuntungan kecil."
+    },
+    {
+      "nama": "Siluman Zashiki-Warashi",
+      "deskripsi": "Anak rumah yang membawa keberuntungan dan kemakmuran rumah."
+    },
+    {
+      "nama": "Siluman Aka-Manto",
+      "deskripsi": "Mantel merah yang melindungi di toilet dengan kertas merah."
+    },
+    {
+      "nama": "Siluman Ame-Onna",
+      "deskripsi": "Wanita hujan yang membawa air dan membersihkan energi kotor."
+    },
+    {
+      "nama": "Siluman Ao-Andon",
+      "deskripsi": "Lentera biru yang menerangi kegelapan dan mengusir roh jahat."
+    },
+    {
+      "nama": "Siluman Buru-Buru",
+      "deskripsi": "Roh gemetar yang melindungi dengan getaran mematikan."
+    },
+    {
+      "nama": "Siluman Daruma",
+      "deskripsi": "Boneka daruma yang membawa ketekunan dan kegigihan."
+    },
+    {
+      "nama": "Siluman Dorotabo",
+      "deskripsi": "Petani lumpur yang melindungi sawah dan tanaman."
+    },
+    {
+      "nama": "Siluman Enenra",
+      "deskripsi": "Roh asap yang melindungi dengan kabut dan kebingungan musuh."
+    },
+    {
+      "nama": "Siluman Futakuchi-Onna",
+      "deskripsi": "Wanita dua mulut yang melindungi dengan makan energi musuh."
+    },
+    {
+      "nama": "Siluman Gaki",
+      "deskripsi": "Roh lapar yang melindungi dengan menyerap energi negatif."
+    },
+    {
+      "nama": "Siluman Hanako-San",
+      "deskripsi": "Roh toilet yang melindungi di kamar kecil dan sempit."
+    },
+    {
+      "nama": "Siluman Hasshaku-Sama",
+      "deskripsi": "Wanita tinggi yang melindungi dengan bayangan menakutkan."
+    },
+    {
+      "nama": "Siluman Hikeshi-Baba",
+      "deskripsi": "Nenek pemadam yang melindungi dari api dan kebakaran."
+    },
+    {
+      "nama": "Siluman Hitodama",
+      "deskripsi": "Bola api roh yang menerangi dan melindungi di kegelapan."
+    },
+    {
+      "nama": "Siluman Ikuchi",
+      "deskripsi": "Ular laut yang melindungi perahu dan penjelajah laut."
+    },
+    {
+      "nama": "Siluman Inoshishi",
+      "deskripsi": "Babi hutan yang melindungi dengan taring tajam dan keberanian."
+    },
+    {
+      "nama": "Siluman Isogashi",
+      "deskripsi": "Roh sibuk yang melindungi dengan kecepatan dan efisiensi."
+    },
+    {
+      "nama": "Siluman Jatai",
+      "deskripsi": "Kain obi yang melilit dan melindungi dari serangan tiba-tiba."
+    },
+    {
+      "nama": "Siluman Jinmenju",
+      "deskripsi": "Pohon wajah manusia yang melindungi dengan ilusi dan ketakutan."
+    },
+    {
+      "nama": "Siluman Kage-Onna",
+      "deskripsi": "Wanita bayangan yang melindungi dengan kegelapan dan misteri."
+    },
+    {
+      "nama": "Siluman Kamaitachi",
+      "deskripsi": "Musang angin yang melindungi dengan angin tajam memotong."
+    },
+    {
+      "nama": "Siluman Kanbari-Nyudo",
+      "deskripsi": "Roh toilet yang melindungi dengan kekuatan kamar mandi."
+    },
+    {
+      "nama": "Siluman Karakasa-Kozo",
+      "deskripsi": "Payung anak yang melindungi dari hujan dan serangan dari atas."
+    },
+    {
+      "nama": "Siluman Katakirauwa",
+      "deskripsi": "Babi satu telinga yang melindungi dengan kekuatan setengah."
+    },
+    {
+      "nama": "Siluman Kejoro",
+      "deskripsi": "Wanita rambut panjang yang melindungi dengan rambut seperti cambuk."
+    },
+    {
+      "nama": "Siluman Kerakera-Onna",
+      "deskripsi": "Wanita tertawa yang melindungi dengan suara mengganggu musuh."
+    },
+    {
+      "nama": "Siluman Kijo",
+      "deskripsi": "Oni wanita yang melindungi dengan kekuatan dan amarah."
+    },
+    {
+      "nama": "Siluman Kosenjo",
+      "deskripsi": "Roh perang yang melindungi dengan kekuatan medan perang."
+    },
+    {
+      "nama": "Siluman Kubire-Oni",
+      "deskripsi": "Oni penggorok yang melindungi dengan tali energi mematikan."
+    },
+    {
+      "nama": "Siluman Kurozuka",
+      "deskripsi": "Roh kuil hitam yang melindungi dengan kekuatan tempat suci."
+    },
+    {
+      "nama": "Siluman Makura-Gaeshi",
+      "deskripsi": "Roh bantal yang melindungi saat tidur dan bermimpi."
+    },
+    {
+      "nama": "Siluman Mehitotsu-Bo",
+      "deskripsi": "Roh satu mata yang melindungi dengan penglihatan tajam."
+    },
+    {
+      "nama": "Siluman Minobi",
+      "deskripsi": "Roh baju api yang melindungi dengan api kecil tapi hangat."
+    },
+    {
+      "nama": "Siluman Mokumokuren",
+      "deskripsi": "Roh mata banyak yang mengintai dan melindungi dari segala arah."
+    },
+    {
+      "nama": "Siluman Morinji-no-Kama",
+      "deskripsi": "Roh teko yang melindungi dengan air panas mematikan."
+    },
+    {
+      "nama": "Siluman Nure-Onago",
+      "deskripsi": "Wanita basah yang melindungi dengan air dan kekuatan laut."
+    },
+    {
+      "nama": "Siluman Nure-Onna",
+      "deskripsi": "Wanita ular basah yang melindungi dengan bisa dan air."
+    },
+    {
+      "nama": "Siluman Oiwa",
+      "deskripsi": "Roh wanita yang melindungi dengan wajah menakutkan dan kutukan."
+    },
+    {
+      "nama": "Siluman Okiku",
+      "deskripsi": "Roh piring yang melindungi dengan suara piring memecahkan musuh."
+    },
+    {
+      "nama": "Siluman Osakabe-Hime",
+      "deskripsi": "Putri menara yang melindungi dengan kekuatan istana dan keanggunan."
+    },
+    {
+      "nama": "Siluman Rokurokubi",
+      "deskripsi": "Wanita leher panjang yang mengintai dan melindungi dari kejauhan."
+    },
+    {
+      "nama": "Siluman Sazae-Oni",
+      "deskripsi": "Oni kerang yang melindungi dengan cangkang keras dan tajam."
+    },
+    {
+      "nama": "Siluman Shichinin Misaki",
+      "deskripsi": "Tujuh roh yang melindungi dengan kekuatan kelompok dan solidaritas."
+    },
+    {
+      "nama": "Siluman Shiro-Uneri",
+      "deskripsi": "Roh kain putih yang melindungi dengan kain melilit dan menutup."
+    },
+    {
+      "nama": "Siluman Sunekosuri",
+      "deskripsi": "Roh kaki yang melindungi dengan mengganggu kaki musuh."
+    },
+    {
+      "nama": "Siluman Taka-Onna",
+      "deskripsi": "Wanita tinggi yang melindungi dengan tubuh panjang dan fleksibel."
+    },
+    {
+      "nama": "Siluman Teke-Teke",
+      "deskripsi": "Wanita setengah tubuh yang melindungi dengan kecepatan meluncur."
+    },
+    {
+      "nama": "Siluman Tenome",
+      "deskripsi": "Roh mata tangan yang melindungi dengan penglihatan dari segala arah."
+    },
+    {
+      "nama": "Siluman Tesso",
+      "deskripsi": "Roh tikus biksu yang melindungi dengan kebijaksanaan dan kelicikan."
+    },
+    {
+      "nama": "Siluman Toire-no-Hanako",
+      "deskripsi": "Roh toilet yang melindungi di kamar kecil dan tersembunyi."
+    },
+    {
+      "nama": "Siluman Umi-Bozu",
+      "deskripsi": "Raksasa laut hitam yang melindungi di perairan dalam dan gelap."
+    },
+    {
+      "nama": "Siluman Ushi-Oni",
+      "deskripsi": "Oni sapi yang melindungi dengan tanduk tajam dan kekuatan."
+    },
+    {
+      "nama": "Siluman Wanyudo",
+      "deskripsi": "Roh roda api yang melindungi dengan api membara mengelilingi."
+    },
+    {
+      "nama": "Siluman Yamachichi",
+      "deskripsi": "Roh gunung yang melindungi dengan kekuatan alam dan batu."
+    },
+    {
+      "nama": "Siluman Yama-Inu",
+      "deskripsi": "Anjing gunung yang melindungi dengan kecepatan dan pengendus tajam."
+    },
+    {
+      "nama": "Siluman Yama-Onna",
+      "deskripsi": "Wanita gunung yang melindungi dengan kekuatan alam dan keindahan."
+    },
+    {
+      "nama": "Siluman Yama-Otoko",
+      "deskripsi": "Pria gunung yang melindungi dengan kekuatan fisik dan ketahanan."
+    },
+    {
+      "nama": "Siluman Yama-Tengu",
+      "deskripsi": "Tengu gunung yang melindungi dengan kekuatan angin dan pedang."
+    },
+    {
+      "nama": "Siluman Yama-Waro",
+      "deskripsi": "Anak gunung yang melindungi dengan keceriaan dan keberuntungan alam."
+    },
+    {
+      "nama": "Siluman Yuki-Joro",
+      "deskripsi": "Wanita salju yang melindungi dengan kekuatan dingin dan es."
+    },
+    {
+      "nama": "Siluman Yuki-Onna",
+      "deskripsi": "Wanita salju yang melindungi dengan kekuatan salju dan kematian dingin."
+    },
+    {
+      "nama": "Siluman Yuki-Otoko",
+      "deskripsi": "Pria salju yang melindungi dengan kekuatan badai salju."
+    },
+    {
+      "nama": "Siluman Yuki-Warashi",
+      "deskripsi": "Anak salju yang melindungi dengan keceriaan dan kekuatan es kecil."
+    },
+    {
+      "nama": "Siluman Zunbera-Bo",
+      "deskripsi": "Roh perut besar yang melindungi dengan menelan energi musuh."
+    }
+  ]
+}
