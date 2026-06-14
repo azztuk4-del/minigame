@@ -1,0 +1,489 @@
+{
+  "tebak_kata_list": [
+    {
+      "kata": "KIMI",
+      "clue": ["AI chatbot", "Dibuat Moonshot AI", "Warna logo ungu"],
+      "hint": "Nama gw bro"
+    },
+    {
+      "kata": "KUNTI",
+      "clue": ["Rambut panjang", "Suka nangis", "Bawa bola"],
+      "hint": "Hantu cewek terkenal"
+    },
+    {
+      "kata": "POCONG",
+      "clue": ["Dibungkus kain", "Lompat-lompat", "Dari kuburan"],
+      "hint": "Hantu bungkus kain putih"
+    },
+    {
+      "kata": "GENDERUWO",
+      "clue": ["Bulu lebat", ["Tinggi besar", "Suka di pohon"],
+      "hint": "Hutan Jawa"
+    },
+    {
+      "kata": "WIBU",
+      "clue": ["Suka anime", "Nonton kartun Jepang", "Pake kaos Naruto"],
+      "hint": "Bukan otaku asli"
+    },
+    {
+      "kata": "KANG TIPU",
+      "clue": ["Modus pulsa", "WA dari Nigeria", "Minta TF dulu"],
+      "hint": "Penipu online"
+    },
+    {
+      "kata": "JOKI",
+      "clue": ["Naikin rank", "Bayar per bintang", "Mainin akun orang"],
+      "hint": "Push rank ML"
+    },
+    {
+      "kata": "SABLENG",
+      "clue": ["Otot besar", "Pake celana loreng", "Lawan Si Buta"],
+      "hint": "Komik lokal legendaris"
+    },
+    {
+      "kata": "SI BUTA",
+      "clue": ["Mata tertutup", "Pendekar tanah air", "Lawan Sableng"],
+      "hint": "Pendekar buta"
+    },
+    {
+      "kata": "GUNDALA",
+      "clue": ["Kecepatan kilat", "Jagoan Indonesia", "Film 2019"],
+      "hint": "Superhero petir"
+    },
+    {
+      "kata": "SRI ASIH",
+      "clue": ["Wanita sakti", "Bumi Langit", "Dewi kekuatan"],
+      "hint": "Superhero cewek Indonesia"
+    },
+    {
+      "kata": "TUYUL",
+      "clue": ["Bocil botak", "Curi duit", "Dibeli dari dukun"],
+      "hint": "Hantu bocil pencuri"
+    },
+    {
+      "kata": "JIN IFRIT",
+      "clue": ["Api merah", "Dari lampu ajaib", "Granting wishes"],
+      "hint": "Jin api"
+    },
+    {
+      "kata": "LEBAK BULUS",
+      "clue": ["Stasiun MRT", ["Ujung selatan", "Jakarta"],
+      "hint": "Stasiun ujung Jakarta"
+    },
+    {
+      "kata": "KRL",
+      "clue": ["Kereta listrik", "Commuter line", "Jabodetabek"],
+      "hint": "Kereta komuter"
+    },
+    {
+      "kata": "GOJEK",
+      "clue": ["Ojol hijau", "Gojekin", "Nadiem Makarim"],
+      "hint": "Aplikasi ojek online"
+    },
+    {
+      "kata": "GRAB",
+      "clue": ["Ojol biru", "Dari Malaysia", "GrabFood"],
+      "hint": "Saingan Gojek"
+    },
+    {
+      "kata": "SHOPEE",
+      "clue": ["Borong 11.11", "Cod", "Oranye"],
+      "hint": "E-commerce oranye"
+    },
+    {
+      "kata": "TOKOPEDIA",
+      "clue": ["Hijau", "Bukalapak dulu", "Dibeli TikTok"],
+      "hint": "E-commerce hijau"
+    },
+    {
+      "kata": "INDOMARET",
+      "clue": ["Minimarket", "Hampir tiap sudut", "Ijo biru"],
+      "hint": "Minimarket terdekat"
+    },
+    {
+      "kata": "ALFAMART",
+      "clue": ["Saingan Indomaret", "Merah putih", "Alfa"],
+      "hint": "Minimarket merah"
+    },
+    {
+      "kata": "WARUNG KOPI",
+      "clue": ["Kopi 5 ribu", "Tongkrongan", "Kursi plastik"],
+      "hint": "Tempat nongkrong murah"
+    },
+    {
+      "kata": "NASI PADANG",
+      "clue": ["Rendang", "Minang", "Piring bertumpuk"],
+      "hint": "Makanan Sumatera Barat"
+    },
+    {
+      "kata": "SATE",
+      "clue": ["Tusuk-tusuk", "Kacang", "Ayam kambing"],
+      "hint": "Makanan tusuk bakar"
+    },
+    {
+      "kata": "BAKSO",
+      "clue": ["Bulat", "Kuah", "Tugu"],
+      "hint": "Makanan bola daging"
+    },
+    {
+      "kata": "MIE AYAM",
+      "clue": ["Mie kuning", "Ayam cincang", "Bakso pelengkap"],
+      "hint": "Makanan jalanan favorit"
+    },
+    {
+      "kata": "GORENGAN",
+      "clue": ["Tahu tempe", "Minyak bekas", "Sore-sore"],
+      "hint": "Jajanan goreng"
+    },
+    {
+      "kata": "KRUPUK",
+      "clue": ["Renyah", "Ikan udang", "Pelengkap nasi"],
+      "hint": "Camilan renyah"
+    },
+    {
+      "kata": "SAMBAL",
+      "clue": ["Pedas", "Cabe", "Ulek"],
+      "hint": "Pelengkap wajib"
+    },
+    {
+      "kata": "KECAP",
+      "clue": ["Hitam manis", "Kedelai", "ABC"],
+      "hint": "Bumbu hitam manis"
+    },
+    {
+      "kata": "BALADO",
+      "clue": ["Cabe merah", "Dendeng", "Padang"],
+      "hint": "Masakan cabe merah"
+    },
+    {
+      "kata": "RENDANG",
+      "clue": ["Daging hitam", "Santan", "Jamu"],
+      "hint": "Makanan terenak dunia"
+    },
+    {
+      "kata": "GUDEG",
+      "clue": ["Nangka muda", "Jogja", "Manis"],
+      "hint": "Makanan khas Jogja"
+    },
+    {
+      "kata": "PECEL",
+      "clue": ["Sayur rebus", "Kacang", "Madiun"],
+      "hint": "Salad Jawa"
+    },
+    {
+      "kata": "RAWON",
+      "clue": ["Hitam", "Kluwek", "Surabaya"],
+      "hint": "Sup hitam Jawa Timur"
+    },
+    {
+      "kata": "SOTO",
+      "clue": ["Kuah bening", "Ayam sapi", "Jeruk nipis"],
+      "hint": "Sup Indonesia"
+    },
+    {
+      "kata": "BUBUR AYAM",
+      "clue": ["Nasi lembek", "Kuning", "Suwiran ayam"],
+      "hint": "Sarapan pagi"
+    },
+    {
+      "kata": "KETOPRAK",
+      "clue": ["Tahu lontong", "Kecap", "Jakarta"],
+      "hint": "Makanan Betawi"
+    },
+    {
+      "kata": "SEBLAK",
+      "clue": ["Kerupuk basah", "Pedas", "Bandung"],
+      "hint": "Jajanan pedas basah"
+    },
+    {
+      "kata": "CIRENG",
+      "clue": ["Aci goreng", "Kenyal", "Bumbu rujak"],
+      "hint": "Jajanan aci"
+    },
+    {
+      "kata": "BATAGOR",
+      "clue": ["Baso tahu goreng", "Kacang", "Bandung"],
+      "hint": "Baso tahu goreng"
+    },
+    {
+      "kata": "SIOMAY",
+      "clue": ["Kukus", "Tahu pare", "Kacang"],
+      "hint": "Dimsum Jawa"
+    },
+    {
+      "kata": "LEMPER",
+      "clue": ["Ketan", "Isi ayam", "Daun pisang"],
+      "hint": "Jajanan ketan"
+    },
+    {
+      "kata": "KLEPON",
+      "clue": ["Bola ijo", "Gula merah", "Kelapa parut"],
+      "hint": "Kue bola hijau"
+    },
+    {
+      "kata": "DADAR GULUNG",
+      "clue": ["Hijau pandan", "Isi kelapa", "Gula merah"],
+      "hint": "Kue gulung hijau"
+    },
+    {
+      "kata": "LAPIS LEGIT",
+      "clue": ["Banyak lapis", "Spekuk", "Mahal"],
+      "hint": "Kue lapis mahal"
+    },
+    {
+      "kata": "PUTRI SALJU",
+      "clue": ["Putih", "Gula halus", "Kue kering"],
+      "hint": "Kue putih salju"
+    },
+    {
+      "kata": "NASTAR",
+      "clue": ["Nanas", "Kue kering", "Lebaran"],
+      "hint": "Kue nanas Lebaran"
+    },
+    {
+      "kata": "KASTENGEL",
+      "clue": ["Keju", "Kue kering", "Lebaran"],
+      "hint": "Kue keju kering"
+    },
+    {
+      "kata": "LIDAH KUCING",
+      "clue": ["Panjang tipis", "Kue kering", "Vanila"],
+      "hint": "Kue lidah kucing"
+    },
+    {
+      "kata": "SEMAR MENDEM",
+      "clue": ["Ketan item", "Isi ayam", "Jawa"],
+      "hint": "Nasi ketan hitam"
+    },
+    {
+      "kata": "TIWUL",
+      "clue": ["Singkong", "Gula merah", "Jawa"],
+      "hint": "Makanan singkong"
+    },
+    {
+      "kata": "GATOT",
+      "clue": ["Singkong kering", "Gula merah", "Jawa"],
+      "hint": "Makanan singkong kering"
+    },
+    {
+      "kata": "GETUK",
+      "clue": ["Singkong", "Kelapa", "Jawa Tengah"],
+      "hint": "Jajanan singkong"
+    },
+    {
+      "kata": "LENGKO",
+      "clue": ["Tahu tempe", "Kecap", "Cirebon"],
+      "hint": "Salad tahu tempe"
+    },
+    {
+      "kata": "TAHU GEJROT",
+      "clue": ["Tahu goreng", "Bumbu cuka", "Cirebon"],
+      "hint": "Tahu bumbu cuka"
+    },
+    {
+      "kata": "TAHU SUMEDANG",
+      "clue": ["Tahu goreng", "Kecil", "Sumedang"],
+      "hint": "Tahu goreng khas"
+    },
+    {
+      "kata": "TAHU PETIS",
+      "clue": ["Tahu goreng", "Petis", "Semarang"],
+      "hint": "Tahu bumbu petis"
+    },
+    {
+      "kata": "LUMPUR",
+      "clue": ["Kue basah", "Kismis", "Tengah"],
+      "hint": "Kue lumpur"
+    },
+    {
+      "kata": "MARTABAK",
+      "clue": ["Tebal", "Manis gurih", "Wijen"],
+      "hint": "Kue tebal jalanan"
+    },
+    {
+      "kata": "TERANG BULAN",
+      "clue": ["Tipis", "Coklat kacang", "Wijen"],
+      "hint": "Martabak tipis"
+    },
+    {
+      "kata": "KUE CUBIT",
+      "clue": ["Kecil", "Coklat meses", "Jajanan SD"],
+      "hint": "Kue cubit kecil"
+    },
+    {
+      "kata": "KUE PANCONG",
+      "clue": ["Cetakan khusus", "Kelapa", "Jakarta"],
+      "hint": "Kue kelapa panggang"
+    },
+    {
+      "kata": "KUE PUTU",
+      "clue": ["Bambu", "Gula merah", "Kelapa"],
+      "hint": "Kue bambu kukus"
+    },
+    {
+      "kata": "KUE APE",
+      "clue": ["Merah putih", "Tebal", "Jakarta"],
+      "hint": "Kue merah putih"
+    },
+    {
+      "kata": "KUE TALAM",
+      "clue": ["Dua lapis", "Hijau putih", "Santan"],
+      "hint": "Kue lapis talam"
+    },
+    {
+      "kata": "KUE LUMPANG",
+      "clue": ["Bentuk lumpang", "Gula merah", "Jawa"],
+      "hint": "Kue cetak lumpang"
+    },
+    {
+      "kata": "KUE MANGKOK",
+      "clue": ["Mekar", "Beras", "Kukus"],
+      "hint": "Kue mekar kukus"
+    },
+    {
+      "kata": "KUE SERABI",
+      "clue": ["Teflon", "Santan", "Solo Bandung"],
+      "hint": "Kue teflon santan"
+    },
+    {
+      "kata": "KUE PUKIS",
+      "clue": ["Cetakan", "Keju coklat", "Jajanan"],
+      "hint": "Kue cetakan keju"
+    },
+    {
+      "kata": "KUE CUCUR",
+      "clue": ["Gula merah", "Berserat", "Jawa"],
+      "hint": "Kue gula merah"
+    },
+    {
+      "kata": "KUE BIKANG",
+      "clue": ["Mekar", "Santan", "Tiga warna"],
+      "hint": "Kue mekar santan"
+    },
+    {
+      "kata": "KUE LUPIS",
+      "clue": ["Ketan", "Daun", "Gula merah"],
+      "hint": "Kue ketan daun"
+    },
+    {
+      "kata": "KUE JADAH",
+      "clue": ["Ketan", "Kelapa", "Bali"],
+      "hint": "Kue ketan Bali"
+    },
+    {
+      "kata": "KUE LEMPER",
+      "clue": ["Ketan", "Isi", "Daun pisang"],
+      "hint": "Kue ketan isi"
+    },
+    {
+      "kata": "KUE BUGIS",
+      "clue": ["Hijau", "Kelapa", "Bugis"],
+      "hint": "Kue hijau kelapa"
+    },
+    {
+      "kata": "KUE MENDUT",
+      "clue": ["Daun", "Isi kelapa", "Jawa"],
+      "hint": "Kue daun isi"
+    },
+    {
+      "kata": "KUE KLETHUK",
+      "clue": ["Kelapa", "Gula merah", "Jawa"],
+      "hint": "Kue kelapa gula"
+    },
+    {
+      "kata": "KUE GEMBLONG",
+      "clue": ["Ketan", "Gula", "Goreng"],
+      "hint": "Kue ketan goreng"
+    },
+    {
+      "kata": "KUE GANDOS",
+      "clue": ["Singkong", "Kelapa", "Jawa"],
+      "hint": "Kue singkong kelapa"
+    },
+    {
+      "kata": "KUE CARABIKANG",
+      "clue": ["Mekar", "Tiga warna", "Jakarta"],
+      "hint": "Kue mekar warna"
+    },
+    {
+      "kata": "KUE RANGI",
+      "clue": ["Kelapa", "Gula merah", "Jakarta"],
+      "hint": "Kue kelapa panggang"
+    },
+    {
+      "kata": "KUE GANDOS",
+      "clue": ["Singkong", "Kelapa", "Goreng"],
+      "hint": "Kue singkong goreng"
+    },
+    {
+      "kata": "KUE BAWANG",
+      "clue": ["Renyah", "Gurih", "Lebaran"],
+      "hint": "Kue kering bawang"
+    },
+    {
+      "kata": "KUE SEMPRONG",
+      "clue": ["Gulung", "Wijen", "Tipis"],
+      "hint": "Kue gulung tipis"
+    },
+    {
+      "kata": "KUE KIPAS",
+      "clue": ["Bentuk kipas", "Wijen", "Kacang"],
+      "hint": "Kue kipas kacang"
+    },
+    {
+      "kata": "KUE SAGU",
+      "clue": ["Sagu", "Keju", "Kue kering"],
+      "hint": "Kue sagu keju"
+    },
+    {
+      "kata": "KUE JONGKONG",
+      "clue": ["Hijau", "Santan", "Daun"],
+      "hint": "Kue hijau daun"
+    },
+    {
+      "kata": "KUE TETELE",
+      "clue": ["Ketan", "Gula", "Bali"],
+      "hint": "Kue ketan Bali"
+    },
+    {
+      "kata": "KUE LAKSAMANA",
+      "clue": ["Menggugat", "Pisang", "Goreng"],
+      "hint": "Kue pisang goreng"
+    },
+    {
+      "kata": "KUE MANGGIS",
+      "clue": ["Bentuk manggis", "Merah", "Jakarta"],
+      "hint": "Kue bentuk manggis"
+    },
+    {
+      "kata": "KUE DELIMA",
+      "clue": ["Merah", "Biji", "Manis"],
+      "hint": "Kue merah biji"
+    },
+    {
+      "kata": "KUE MELON",
+      "clue": ["Hijau", "Bentuk melon", "Manis"],
+      "hint": "Kue bentuk melon"
+    },
+    {
+      "kata": "KUE KACANG",
+      "clue": ["Kacang", "Kue kering", "Lebaran"],
+      "hint": "Kue kacang kering"
+    },
+    {
+      "kata": "KUE KORNET",
+      "clue": ["Jagung", "Manis", "Kue kering"],
+      "hint": "Kue jagung kering"
+    },
+    {
+      "kata": "KUE BANGKIT",
+      "clue": ["Sagu", "Mekar", "Lebaran"],
+      "hint": "Kue sagu mekar"
+    },
+    {
+      "kata": "KUE KUE",
+      "clue": ["Umum", "Manis", "Jajanan"],
+      "hint": "Makanan manis"
+    }
+  ]
+}
